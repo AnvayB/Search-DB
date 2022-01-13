@@ -1,7 +1,9 @@
 <template>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  <div class="links">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+  </div>
   <div class="app">
     <header>
       <h1>The<strong>Anime</strong>Database</h1>
@@ -14,7 +16,7 @@
 
 export default {
   name: 'app',
-  
+  query: ''
   
 }
 </script>
@@ -48,5 +50,8 @@ header h1 {
 }
 header h1 strong {
   color: black;
+}
+header h1:hover {
+  color: #313131;
 }
 </style>
